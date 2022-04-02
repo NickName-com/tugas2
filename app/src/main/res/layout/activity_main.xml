@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bg_gambar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/logo_bg_esa_unggul"
+        />
+
+    <TextView
+        android:id="@+id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selamat Datang di Universitas Esa Unggul"
+        android:textAlignment="center"
+        android:layout_marginTop="60dp"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/biru_esaunggul"
+        />
+
+    <TextView
+        android:id="@+id/judul2"
+        android:layout_below="@id/judul1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Program Studi Teknik Informatika - Fakultas Ilmu Komputer"
+        android:textAlignment="center"
+        android:layout_marginTop="6dp"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/biru_esaunggul"
+        />
+
+    <ImageView
+        android:id="@+id/main_gambar"
+        android:layout_width="177dp"
+        android:layout_height="177dp"
+        android:layout_below="@id/judul2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="117dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:src="@drawable/main_foto"
+        />
+
+    <TextView
+        android:id="@+id/biodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama : Arif Prayogi\nNIM : 20190801339\nHobby Saya : Healing\nPekerjaan Saya : IT-Support\nStatus : Lajang"
+        android:layout_below="@id/main_gambar"
+        android:layout_marginLeft="30dp"
+        android:textSize="13dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>
